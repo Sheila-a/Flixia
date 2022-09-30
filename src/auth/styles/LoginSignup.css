@@ -1,0 +1,86 @@
+.Login-form {
+    margin-top: 10vh;
+    /* width: 50%; */
+    box-sizing: border-box;
+    display: grid;
+    height: 100%;
+    width: 100%;
+    place-items: center;
+    background: -webkit-linear-gradient(top, rgba(255, 166, 0, 0.534), rgba(255, 166, 0, 0.747), orange);
+}
+
+::selection {
+    background: orangered;
+    color: #fff;
+}
+
+.LSwrapper {
+    overflow: hidden;
+    max-width: 390px;
+    background: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.1);
+}
+
+.LSwrapper .LStitle-text {
+    display: flex;
+    width: 200%;
+}
+
+.LSwrapper .LStitle {
+    width: 50%;
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+    transition: all .6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.LSwrapper .LSslide-controls {
+    position: relative;
+    display: flex;
+    height: 50px;
+    width: 100%;
+    overflow: hidden;
+    margin: 30px 0 10px 0;
+    justify-content: space-between;
+    border: 1px solid lightgray;
+    border-radius: 15px;
+
+}
+
+.LSslide-controls .LSslide {
+    height: 100%;
+    width: 100%;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 48px;
+    cursor: pointer;
+    z-index: 1;
+    transition: all .6s ease;
+}
+
+.LSslide-controls label.Signup {
+    color: #000;
+}
+
+.LSslide-controls .LSslide-tab {
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    left: 0;
+    z-index: 0;
+    border-radius: 15px;
+    background: -webkit-linear-gradient(top, orange);
+    transition: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+/* .login-btn {
+    background-color: orange;
+}
+
+.login-input:focus {
+    box-shadow: 0 0 0 .25rem rgba(255, 166, 0, 0.623);
+} */
