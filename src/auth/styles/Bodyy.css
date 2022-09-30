@@ -27,7 +27,7 @@
 }
 
 .landing-body_container {
-    background-color: rgba(255, 166, 0, 0.678);
+    /* background-color: rgba(255, 166, 0, 0.678); */
     height: calc(100vh-50px);
     color: #fff;
     margin-left: 5vw;

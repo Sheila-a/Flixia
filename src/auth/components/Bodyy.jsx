@@ -20,8 +20,8 @@ const Bodyy = () => {
             <img className="feature-cover_title" src={FT1} alt="" />
             <p className="feature-cover_desc Bodyy-font">
               Flixia, a movie streaming application that helps you organise your
-              movies, categorically display them by genre and optimum video
-              quality. Culpa, ab. Lorem, ipsum dolor sit amet consectetur
+              movies, categorically display them by genre and provides optimum
+              video quality. Culpa, ab. Lorem, ipsum dolor sit amet consectetur
               adipisicing elit. Culpa, ab. Lorem, ipsum dolor sit amet
               consectetur adipisicing elit. Culpa, ab.
             </p>
