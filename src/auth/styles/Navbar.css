@@ -1,0 +1,59 @@
+.landing-nav {
+    background-color: rgba(255, 166, 0, 0.678) !important;
+    /* background-color: linear-gradient(rgb(245, 208, 139) orange orange) !important; */
+}
+
+.landing-logo {
+    margin-right: 5vw;
+    margin-left: 5vw;
+}
+
+.landing-li {
+    margin-right: 2vw;
+}
+
+.nav-link:hover,
+.active {
+    color: #fff !important;
+}
+
+.landing-right {
+    align-items: center;
+    margin-right: 5vw;
+}
+
+.landing-profile {
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.landing-profile_text_container {
+    margin: 0 2vw 0 .4vw;
+    align-items: center;
+}
+
+.landing-toggle {
+    width: 40px;
+    height: 20px;
+    background-color: #fff;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.landing-tIcon {
+    color: rgba(100, 69, 11, 0.678);
+    margin-left: .2vw;
+}
+
+.landing-toggle_ball {
+    width: 17px;
+    height: 17px;
+    background-color: #000;
+    position: absolute;
+    right: 0px;
+    border-radius: 50%;
+    cursor: pointer;
+}

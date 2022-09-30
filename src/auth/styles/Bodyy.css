@@ -1,0 +1,90 @@
+.Bodyy-font {
+    font-weight: 300;
+    letter-spacing: .5px;
+}
+
+.landing-sidebar {
+    width: 5vw;
+    height: 100%;
+    position: fixed;
+    background-color: rgba(255, 166, 0, 0.678);
+}
+
+.bodyy-iconss {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.5vw;
+    margin-bottom: 7vh;
+    cursor: pointer;
+}
+
+.bodyy-iconss:hover {
+    color: #fff;
+    transition: ease-out 30ms;
+}
+
+.landing-body_container {
+    background-color: rgba(255, 166, 0, 0.678);
+    height: calc(100vh-50px);
+    color: #fff;
+    margin-left: 5vw;
+}
+
+.featurred {
+    height: 60vh;
+    /* background-color: rgba(128, 128, 128, 0.925); */
+    background-image:
+        linear-gradient(to bottom,
+            rgba(245, 246, 252, 0.39),
+            /* rgb(185, 103, 103), */
+            rgba(255, 166, 0, 0.479), orange),
+        url(' ../assets/img/movie-cover.jpg');
+    background-size: cover;
+    padding: 5vh;
+
+    /* background: linear-gradient(rgb(165, 134, 100), orange); */
+}
+
+.feature-cover_title {
+    width: 20vw;
+}
+
+.feature-cover_desc {
+    width: 50vw;
+    color: lightgray;
+    margin: 5vh 0;
+}
+
+.feature-cover_btn {
+    display: inline-block;
+    background-color: rgba(255, 166, 0, 0.678);
+    border-radius: 5px;
+    padding: 4.5px;
+    padding-left: 10px;
+    border: 1px solid red;
+    box-shadow: 4px 4px 0 rgba(255, 0, 0, 0.212);
+    color: #fff;
+}
+
+.feature-cover_btn span {
+    background-color: #fff;
+    color: rgba(255, 166, 0, 0.678);
+    margin-left: 0.5rem;
+    border-radius: 3px;
+    padding: 5px 6px;
+}
+
+.feature-cover_btn:hover {
+    background-color: #fff;
+    color: rgba(255, 166, 0, 0.678);
+    box-shadow: 4px 4px 0 orange;
+
+}
+
+.feature-cover_btn:hover span {
+    background-color: rgba(255, 166, 0, 0.678);
+    color: #fff;
+    margin-left: 1rem;
+    transition: .3s ease-in;
+}
