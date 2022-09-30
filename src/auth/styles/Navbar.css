@@ -1,6 +1,12 @@
 .landing-nav {
-    background-color: rgba(255, 166, 0, 0.678) !important;
+    /* background-color: rgba(255, 166, 0, 0.678) !important; */
+    background-color: orange !important;
     /* background-color: linear-gradient(rgb(245, 208, 139) orange orange) !important; */
+    width: 100%;
+    z-index: 2;
+    top: 0;
+    position: fixed;
+    box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.137);
 }
 
 .landing-logo {
@@ -56,4 +62,9 @@
     right: 0px;
     border-radius: 50%;
     cursor: pointer;
+}
+
+.landing-right a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.795);
 }

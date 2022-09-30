@@ -19,11 +19,11 @@ const Bodyy = () => {
           <div className="featurred">
             <img className="feature-cover_title" src={FT1} alt="" />
             <p className="feature-cover_desc Bodyy-font">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa,
-              ab. Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Culpa, ab. Lorem, ipsum dolor sit amet consectetur adipisicing
-              elit. Culpa, ab. Lorem, ipsum dolor sit amet consectetur
-              adipisicing elit. Culpa, ab.
+              Flixia, a movie streaming application that helps you organise your
+              movies, categorically display them by genre and optimum video
+              quality. Culpa, ab. Lorem, ipsum dolor sit amet consectetur
+              adipisicing elit. Culpa, ab. Lorem, ipsum dolor sit amet
+              consectetur adipisicing elit. Culpa, ab.
             </p>
             <button className="feature-cover_btn">
               WATCH<span className="fas fa-chevron-right"></span>

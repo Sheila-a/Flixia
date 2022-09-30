@@ -4,6 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "../styles/Navbar.css";
 import Logo from "../assets/img/Logo.png";
 import Profile from "../assets/img/profile.png";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -57,38 +58,6 @@ const Navbar = () => {
                   Popular
                 </a>
               </li>
-              {/* <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  id="navbarDropdown"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Dropdown
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li>
-                    <a class="dropdown-item" href="#">
-                      Action
-                    </a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#">
-                      Another action
-                    </a>
-                  </li>
-                  <li>
-                    <hr class="dropdown-divider" />
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#">
-                      Something else here
-                    </a>
-                  </li>
-                </ul>
-              </li> */}
             </ul>
             <div
               className="d-flex landing-right"
@@ -113,6 +82,9 @@ const Navbar = () => {
                 <i class="fa-solid fa-sun landing-tIcon"></i>
                 <div className="landing-toggle_ball"></div>
               </div>
+              <Link to="/login-signup" className="me-2">
+                Login/Signup
+              </Link>
             </div>
           </div>
         </div>

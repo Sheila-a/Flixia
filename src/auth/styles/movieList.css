@@ -1,0 +1,55 @@
+.movieList-container {
+    margin-left: 5vw;
+    padding: 5vh;
+    background-color: orange;
+}
+
+.movieList-title {
+    color: rgb(233, 219, 219);
+}
+
+.movieList {
+    display: flex;
+    align-items: center;
+    height: 300px;
+}
+
+.movieList-item {
+    margin-right: 30px;
+    position: relative;
+}
+
+.movieList-item:hover .movieList-item_img {
+    transform: scale(1.2);
+    margin: 0 30px;
+}
+
+.movieList-item_img {
+    width: 270px;
+    height: 200px;
+    object-fit: cover;
+    transition: all .5s ease-in-out;
+}
+
+.movieList-item_title {
+    background-color: #fff;
+    padding: 0 10px;
+    font-size: 32px;
+    font-weight: bold;
+    position: absolute;
+    top: 10%;
+    left: 50px;
+    /* opacity: 0; */
+}
+
+.movieList-item_desc {
+    background-color: #fff;
+    padding: 10px;
+    font-size: 12px;
+    position: absolute;
+    top: 30%;
+    left: 50px;
+    margin-top: 1vh;
+    width: 210px;
+    /* opacity: 0; */
+}
