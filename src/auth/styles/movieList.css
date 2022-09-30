@@ -12,6 +12,7 @@
     display: flex;
     align-items: center;
     height: 300px;
+    overflow: hidden;
 }
 
 .movieList-item {
