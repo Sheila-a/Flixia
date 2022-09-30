@@ -11,7 +11,7 @@ const Navbar = () => {
     <div>
       <nav class="navbar navbar-expand-lg navbar-light bg-light landing-nav">
         <div class="container-fluid">
-          <a class="navbar-brand" href="...">
+          <a class="navbar-brand" href="/">
             <img
               src={Logo}
               alt=""
@@ -82,8 +82,11 @@ const Navbar = () => {
                 <i class="fa-solid fa-sun landing-tIcon"></i>
                 <div className="landing-toggle_ball"></div>
               </div>
-              <Link to="/login-signup" className="me-2">
-                Login/Signup
+              <Link to="/login" className="me-2 linkNav">
+                Login
+              </Link>
+              <Link to="/signup" className="me-2 linkNav">
+                Signup
               </Link>
             </div>
           </div>

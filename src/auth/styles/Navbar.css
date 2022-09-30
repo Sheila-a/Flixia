@@ -68,3 +68,7 @@
     text-decoration: none;
     color: rgba(0, 0, 0, 0.795);
 }
+
+.linkNav:hover {
+    color: white;
+}

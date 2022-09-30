@@ -1,6 +1,6 @@
 .movieList-container {
     margin-left: 5vw;
-    padding: 5vh;
+    padding: 0 5vh;
     background-color: orange;
 }
 
@@ -23,6 +23,13 @@
 .movieList-item:hover .movieList-item_img {
     transform: scale(1.2);
     margin: 0 30px;
+    opacity: .7;
+}
+
+.movieList-item:hover .movieList-item_title,
+.movieList-item:hover .movieList-item_desc,
+.movieList-item:hover .movieList-item_btn {
+    opacity: 1;
 }
 
 .movieList-item_img {
@@ -40,7 +47,8 @@
     position: absolute;
     top: 10%;
     left: 50px;
-    /* opacity: 0; */
+    opacity: 0;
+    transition: 1s all ease-in-out;
 }
 
 .movieList-item_desc {
@@ -50,7 +58,75 @@
     position: absolute;
     top: 30%;
     left: 50px;
-    margin-top: 1vh;
     width: 210px;
-    /* opacity: 0; */
+    opacity: 0;
+    transition: 1s all ease-in-out;
+}
+
+.movieList-item_btn {
+    display: inline-block;
+    border-radius: 5px;
+    padding: 2px;
+    padding-left: 10px;
+    color: #fff;
+    border: 1px solid red;
+    box-shadow: 4px 4px 0 rgba(255, 0, 0, 0.212);
+    background-color: rgba(214, 141, 5, 0.911);
+    position: absolute;
+    bottom: 10px;
+    left: 50px;
+    opacity: 0;
+    transition: 1s all ease-in-out;
+}
+
+.movieList-item_btn span {
+    background-color: #fff;
+    color: rgba(255, 166, 0, 0.678);
+    margin-left: 0.5rem;
+    border-radius: 3px;
+    padding: 2px 3px;
+}
+
+.movieList-item_btn:hover {
+    background-color: #fff;
+    color: rgba(255, 166, 0, 0.678);
+    box-shadow: 4px 4px 0 orange;
+
+}
+
+.movieList-item_btn:hover span {
+    background-color: rgba(255, 166, 0, 0.678);
+    color: #fff;
+    margin-left: 1rem;
+    transition: .3s ease-in;
+}
+
+.movieList-wrap {
+    position: relative;
+    /* background: green; */
+}
+
+.movieArrow {
+    font-size: 100px;
+    color: #fff;
+    position: absolute;
+    top: 100px;
+    cursor: pointer;
+    right: 0;
+    opacity: .5;
+}
+
+.featurred2 {
+    height: 60vh;
+    /* background-color: rgba(128, 128, 128, 0.925); */
+    background-image:
+        linear-gradient(to bottom,
+            rgba(245, 246, 252, 0.39),
+            /* rgb(185, 103, 103), */
+            rgba(255, 166, 0, 0.479), orange),
+        url(' ../assets/img/movie-cover2.jpg');
+    background-size: cover;
+    padding: 5vh;
+
+    /* background: linear-gradient(rgb(165, 134, 100), orange); */
 }
