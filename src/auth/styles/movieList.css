@@ -12,13 +12,16 @@
     display: flex;
     align-items: center;
     height: 300px;
-    overflow: hidden;
+    transform: translateX(0);
+    /* overflow: hidden; */
 }
 
 .movieList-item {
     margin-right: 30px;
     position: relative;
+
 }
+
 
 .movieList-item:hover .movieList-item_img {
     transform: scale(1.2);
@@ -35,6 +38,7 @@
 .movieList-item_img {
     width: 270px;
     height: 200px;
+    border-radius: 20px;
     object-fit: cover;
     transition: all .5s ease-in-out;
 }
@@ -103,6 +107,7 @@
 
 .movieList-wrap {
     position: relative;
+    overflow: hidden;
     /* background: green; */
 }
 
@@ -129,4 +134,14 @@
     padding: 5vh;
 
     /* background: linear-gradient(rgb(165, 134, 100), orange); */
+}
+
+/* light theme */
+
+.movieList-container.active {
+    background-color: white;
+}
+
+.movieList-title.active {
+    color: orange;
 }

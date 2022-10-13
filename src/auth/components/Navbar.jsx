@@ -9,9 +9,14 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <div>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light landing-nav">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="/">
+      <nav
+        className="navbar navbar-expand-lg navbar-light bg-light landing-nav"
+        data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="1500"
+      >
+        <div className="container-fluid">
+          <a className="navbar-brand" href="/">
             <img
               src={Logo}
               alt=""
@@ -31,30 +36,30 @@ const Navbar = () => {
           >
             <span className="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item landing-li">
-                <a class="nav-link active" aria-current="page" href="...">
+          <div className="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+              <li className="nav-item landing-li">
+                <a className="nav-link active" aria-current="page" href="...">
                   Home
                 </a>
               </li>
-              <li class="nav-item landing-li">
-                <a class="nav-link" href="...">
+              <li className="nav-item landing-li">
+                <a className="nav-link" href="...">
                   Movies
                 </a>
               </li>
-              <li class="nav-item landing-li">
-                <a class="nav-link" href="...">
+              <li className="nav-item landing-li">
+                <a className="nav-link" href="...">
                   Series
                 </a>
               </li>
-              <li class="nav-item landing-li">
-                <a class="nav-link" href="...">
+              <li className="nav-item landing-li">
+                <a className="nav-link" href="...">
                   Trends
                 </a>
               </li>
-              <li class="nav-item landing-li">
-                <a class="nav-link" href="...">
+              <li className="nav-item landing-li">
+                <a className="nav-link" href="...">
                   Popular
                 </a>
               </li>
@@ -73,13 +78,13 @@ const Navbar = () => {
               <div className="landing-profile_text_container">
                 <span className="landing-profile_text">Profile</span>
                 <i
-                  class="fa-solid fa-sort-down"
+                  className="fa-solid fa-sort-down"
                   //   style={{ marginTop: "-2vh" }}
                 ></i>
               </div>
-              <div className="landing-toggle me-2">
-                <i class="fa-solid fa-moon landing-tIcon"></i>
-                <i class="fa-solid fa-sun landing-tIcon"></i>
+              <div className="landing-toggle toggle landingToggle me-2">
+                <i className="fa-solid fa-moon landing-tIcon"></i>
+                <i className="fa-solid fa-sun landing-tIcon"></i>
                 <div className="landing-toggle_ball"></div>
               </div>
               <Link to="/login" className="me-2 linkNav">

@@ -21,8 +21,20 @@ const MovieList = () => {
   return (
     <div>
       <div className="movieList-container">
-        <h1 className="movieList-title">NEW RELEASES</h1>
-        <div className="movieList-wrap">
+        <h1
+          className="movieList-title"
+          data-aos="fade-up"
+          data-aos-easing="linear"
+          data-aos-duration="1000"
+        >
+          NEW RELEASES
+        </h1>
+        <div
+          className="movieList-wrap"
+          data-aos="fade-up"
+          data-aos-easing="linear"
+          data-aos-duration="1000"
+        >
           <div className="movieList">
             <div className="movieList-item">
               <img src={one} alt="" className="movieList-item_img" />
@@ -37,7 +49,7 @@ const MovieList = () => {
             </div>
             <div className="movieList-item">
               <img src={two} alt="" className="movieList-item_img" />
-              <span className="movieList-item_title">Her</span>
+              <span className="movieList-item_title">Star Wars</span>
               <p className="movieList-item_desc">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi,
                 in? Lorem ipsum dolor sit amet.
@@ -48,7 +60,7 @@ const MovieList = () => {
             </div>
             <div className="movieList-item">
               <img src={three} alt="" className="movieList-item_img" />
-              <span className="movieList-item_title">Her</span>
+              <span className="movieList-item_title">1920</span>
               <p className="movieList-item_desc">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi,
                 in? Lorem ipsum dolor sit amet.
@@ -59,7 +71,7 @@ const MovieList = () => {
             </div>
             <div className="movieList-item">
               <img src={four} alt="" className="movieList-item_img" />
-              <span className="movieList-item_title">Her</span>
+              <span className="movieList-item_title">Paths of Glory</span>
               <p className="movieList-item_desc">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi,
                 in? Lorem ipsum dolor sit amet.
@@ -106,12 +118,24 @@ const MovieList = () => {
         </div>
       </div>
       <div className="movieList-container">
-        <h1 className="movieList-title">NEW RELEASES</h1>
-        <div className="movieList-wrap">
+        <h1
+          className="movieList-title"
+          data-aos="fade-up"
+          data-aos-easing="linear"
+          data-aos-duration="1000"
+        >
+          FEATURED
+        </h1>
+        <div
+          className="movieList-wrap"
+          data-aos="fade-up"
+          data-aos-easing="linear"
+          data-aos-duration="1000"
+        >
           <div className="movieList">
             <div className="movieList-item">
               <img src={eight} alt="" className="movieList-item_img" />
-              <span className="movieList-item_title">Her</span>
+              <span className="movieList-item_title">1917</span>
               <p className="movieList-item_desc">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi,
                 in? Lorem ipsum dolor sit amet.
@@ -122,7 +146,7 @@ const MovieList = () => {
             </div>
             <div className="movieList-item">
               <img src={nine} alt="" className="movieList-item_img" />
-              <span className="movieList-item_title">Her</span>
+              <span className="movieList-item_title">Avengers</span>
               <p className="movieList-item_desc">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi,
                 in? Lorem ipsum dolor sit amet.
@@ -193,23 +217,52 @@ const MovieList = () => {
       <div className="landing-body_container" style={{ marginTop: "0" }}>
         <div className="body-content_container">
           <div className="featurred2">
-            <img className="feature-cover_title" src={FT2} alt="" />
-            <p className="feature-cover_desc Bodyy-font">
+            <img
+              className="feature-cover_title"
+              src={FT2}
+              alt=""
+              data-aos="fade-up"
+              data-aos-easing="linear"
+              data-aos-duration="1000"
+            />
+            <p
+              className="feature-cover_desc Bodyy-font"
+              data-aos="fade-up"
+              data-aos-easing="linear"
+              data-aos-duration="1000"
+            >
               Flixia, a movie streaming application that helps you organise your
               movies, categorically display them by genre and provides optimum
               video quality. Culpa, ab. Lorem, ipsum dolor sit amet consectetur
               adipisicing elit. Culpa, ab. Lorem, ipsum dolor sit amet
               consectetur adipisicing elit. Culpa, ab.
             </p>
-            <button className="feature-cover_btn">
+            <button
+              className="feature-cover_btn"
+              data-aos="fade-up"
+              data-aos-easing="linear"
+              data-aos-duration="1000"
+            >
               WATCH<span className="fas fa-chevron-right"></span>
             </button>
           </div>
         </div>
       </div>
       <div className="movieList-container">
-        <h1 className="movieList-title">NEW RELEASES</h1>
-        <div className="movieList-wrap">
+        <h1
+          className="movieList-title"
+          data-aos="fade-up"
+          data-aos-easing="linear"
+          data-aos-duration="1000"
+        >
+          NEW RELEASES
+        </h1>
+        <div
+          className="movieList-wrap"
+          data-aos="fade-up"
+          data-aos-easing="linear"
+          data-aos-duration="1000"
+        >
           <div className="movieList">
             <div className="movieList-item">
               <img src={one} alt="" className="movieList-item_img" />

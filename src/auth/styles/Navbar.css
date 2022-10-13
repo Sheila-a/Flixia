@@ -50,7 +50,7 @@
 }
 
 .landing-tIcon {
-    color: rgba(100, 69, 11, 0.678);
+    color: rgb(184, 120, 3);
     margin-left: .2vw;
 }
 
@@ -71,4 +71,25 @@
 
 .linkNav:hover {
     color: white;
+}
+
+/* light theme */
+.nav-link.active,
+.landing-profile_text.active,
+.linkNav.active {
+    color: white;
+}
+
+.nav-link.active:hover,
+.landing-profile_text.active:hover {
+    color: rgb(27, 25, 25) !important;
+}
+
+.landing-toggle.active {
+    background-color: black;
+}
+
+.landing-toggle_ball.active {
+    background-color: white;
+    transform: translateX(-22px);
 }

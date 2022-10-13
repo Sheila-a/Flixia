@@ -33,7 +33,12 @@ const LoginSignup = () => {
   return (
     <div>
       <Navbar />
-      <div className="LSwrapper Login-form">
+      <div
+        className="LSwrapper Login-form"
+        data-aos="zoom-out"
+        data-aos-easing="linear"
+        data-aos-duration="1000"
+      >
         <div className="LStitle-text">
           <div className="LStitle Login"> Login Form</div>{" "}
           <div className="LStitle Signup"> </div>{" "}

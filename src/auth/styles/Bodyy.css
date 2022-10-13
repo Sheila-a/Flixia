@@ -91,3 +91,12 @@
     margin-left: 1rem;
     transition: .3s ease-in;
 }
+
+/* light theme */
+.bodyy-iconss.active {
+    color: white;
+}
+
+.bodyy-iconss.active:hover {
+    color: rgb(27, 25, 25);
+}
